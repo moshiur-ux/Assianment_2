@@ -3,7 +3,10 @@
 * {
 
     font-family: 'Work Sans', sans-serif;
+    
+
 }
+
 
 .btn-primary {
     padding: 21px 40px;
@@ -300,6 +303,7 @@ nav li a {
     background: #0B0223;
     width: 1500px;
     height: 400px;
+    margin-bottom: 100px;
 
 }
 
@@ -421,6 +425,11 @@ nav li a {
         justify-content: space-around;
 
     }
+    body ,.for-footer ,.card2 ,.banner img
+{
+    width: 100vh;
+}
+
 
     .banner,
     .banner1 {
@@ -431,9 +440,14 @@ nav li a {
     }
 
     .skill-container
+    ,.features
     {
         flex-direction: column-reverse;
 
+    }
+    .features
+    {
+        flex-direction: column;
     }
 
 
