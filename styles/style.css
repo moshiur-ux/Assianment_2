@@ -51,6 +51,8 @@
 
 nav {
 
+    margin-bottom:2px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -267,8 +269,7 @@ nav li a {
 
 }
 
-.facts
-{
+.facts {
     margin-bottom: 20px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -293,14 +294,120 @@ nav li a {
     bottom: 300px;
     right: 100px;
 
+}
 
-
-
-
+.for-footer {
+    background: #0B0223;
+    width: 1500px;
+    height: 400px;
 
 }
 
+.section-title3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    padding: 10px;
 
+}
+
+.footer-titlepink {
+    color: palevioletred;
+}
+
+.footer-1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.footer-p2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.fa-regular {
+    font-size: 40px;
+
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    position: relative;
+
+}
+
+.card1:hover .card2 {
+    display: flex !important;
+}
+
+.card2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8758f13d;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.O {
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.F {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.social-links {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-first {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
 
 
 
@@ -321,6 +428,12 @@ nav li a {
         flex-direction: column-reverse;
         margin: 20px;
         padding: 0px;
+    }
+
+    .skill-container
+    {
+        flex-direction: column-reverse;
+
     }
 
 
